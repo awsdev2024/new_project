@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', credentialsId: 'gotHub', url: 'https://gitlab.com/learndevopseasy/devsecops/springboot-build-pipeline.git'
+        git branch: 'main', credentialsId: 'gotHub', url: 'https://github.com/awsdev2024/new_project.git'
       }
     }
   
